@@ -1,0 +1,21 @@
+.base {
+    background-color: rgb(235, 180, 175);
+
+}
+
+.base.extra {
+    font-size: 20px;
+}
+
+#firstID {
+    color: rgb(52, 108, 192);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#secondID {
+    background-color: rgb(77, 231, 16);
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
