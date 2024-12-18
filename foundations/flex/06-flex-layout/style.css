@@ -5,17 +5,69 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
 }
 
 img {
   width: 600px;
+  padding-bottom: 16px;
 }
 
 button {
   font-family: Roboto, sans-serif;
+  font-size: small;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 6px 15px;
+  margin-top: 16px;
+  cursor: pointer;
 }
 
 input {
@@ -23,4 +75,14 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+a {
+  color: darkgray;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+a:link {
+  text-decoration: none;
 }
